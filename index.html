@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="pizzaIceCream"
+<html lang="en" ng-app="pizzaIceCream">
   <head>
     <meta charset="UTF-8">
     <title>Pizza Ice Cream</title>
@@ -13,6 +13,13 @@
   </head>
   <body>
     <div class="container">
+      <div ng-controller="IceCreamCtrl">
+        <div class="col-md-6">
+          <h2>Ice Cream</h2>
+          <form ng-submit="IceCreamFactory.totalCost()" class="form-inline" role="form">
+            <div class="form-group">
+            <input type="radio" ng-model="IceCreamFactory.totalCost()"
+
 
     </div>
   </body>
